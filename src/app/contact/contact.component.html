@@ -1,0 +1,27 @@
+
+<div class="contact-card">
+    <div class="card" 
+        style="border: 1px solid blue;"
+        >
+        <div class="card-header">
+        <h2> 
+            {{contact.fName}}
+            {{contact.lName}}
+        </h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">Phone Number: {{contact.pNumber}}</li>
+            <li class="list-group-item">Email: {{contact.email}}</li>
+        </ul>
+        <button (click)="onEdit()">Edit Contact</button>
+        <button (click)="onDelete()">Delete Contact</button>
+        
+</div>
+
+
+
+
+
+
+
+

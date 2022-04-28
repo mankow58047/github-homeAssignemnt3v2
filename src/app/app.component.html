@@ -1,0 +1,18 @@
+<div>
+  <h1 class="mid">Contact Manager</h1>
+</div>
+
+<nav class="mid">
+  <a (click)="showAdd()">Add Contact</a>
+  <a (click)="showList()">List Contacts</a>
+</nav>
+
+<div>
+  <app-list-contact *ngIf="display == 1"></app-list-contact>
+</div>
+<div>
+  <app-add-contact *ngIf="display == 2 "></app-add-contact>
+</div>
+<div>
+<app-edit-contact *ngIf="display == 3" ></app-edit-contact>
+</div>

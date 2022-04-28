@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+label {
+    display: block;
+    margin-top: .5pc;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkcyan;
+    font-weight: bold;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 1pc;
+    cursor: pointer;
+    cursor: hand;
+}
+
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+
+  a {
+    cursor: pointer;
+    cursor: hand;
+  }
+
+  .contact-card{
+    display: block;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+bot-bord {
+  border-bottom: .5px;
+  color: darkgray;
+}
