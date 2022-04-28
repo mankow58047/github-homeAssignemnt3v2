@@ -21,16 +21,6 @@ export class ContactComponent {
 
   constructor(private contactService: ContactService) { }
 
-  // toggleEditor(type: EditorType){
-  //   this.editor = type;
-  // }
-
-  // get showEditContact() {
-  //   return this.editor === 'edit';
-  // }
-
-
-
   onDelete(): void{
     this.contactService.removeContact(this.id);
   }
