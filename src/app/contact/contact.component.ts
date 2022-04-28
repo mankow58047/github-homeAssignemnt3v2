@@ -3,7 +3,6 @@ import { Component, OnInit, Input} from '@angular/core';
 import { Contact } from '../contacts';
 import { EditContactComponent } from '../edit-contact/edit-contact.component';
 import { ContactService } from './../contact.service'
-export type EditorType = 'edit';
 
 
 @Component({
@@ -16,8 +15,6 @@ export class ContactComponent {
  @Input() id: number = 0;
 
  contact: Contact = {fName: '', lName: '', pNumber: '', email: ''};
-
-  editor: EditorType = 'edit'
 
   constructor(private contactService: ContactService) { }
 
